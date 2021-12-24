@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: assets/fonts/okfont.ttf
+SHA1-Digest: BsKBv6vV1nVFmm9iqm7qA54edQQ=
+
+Name: res/layout/main2.xml
+SHA1-Digest: oGtnT1/Xm9H6QrzwPtlNnOwy4Bc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: jOCuD7CUR8ge5VKT9q+LnTZ56GI=
+
+Name: res/drawable-xhdpi-v4/wall.png
+SHA1-Digest: ftbuu9xloxOhQOF0arKvHLL2N9k=
+
+Name: res/drawable-xhdpi-v4/default_image.png
+SHA1-Digest: VM/Z3IATszPIj5vmoOVpxiXU+9k=
+
+Name: resources.arsc
+SHA1-Digest: 5rSH7TY/WemEtgxp2/Qb+WqeSKE=
+
+Name: res/layout/main.xml
+SHA1-Digest: Y1t3qXGisioJ4bEWdNQtsa2/WC0=
+
+Name: res/drawable-xhdpi-v4/app_icon.png
+SHA1-Digest: KtZwJcpk5HPnlLotAudi1YRnO1U=
+
+Name: classes.dex
+SHA1-Digest: rxWlzh7lvR9waIhssbei6m09hdo=
+
+Name: res/drawable-xhdpi-v4/lock.png
+SHA1-Digest: BSe2219spDukmPdUNqqbvw+LcqY=
+

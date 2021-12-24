@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff3f51b5" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/textview1" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Enter The Password Given By Developer" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear3" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/textview2" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username" />
+        <EditText android:textSize="14.0sp" android:textColor="#ff000000" android:textColorHint="#ff607d8b" android:id="@id/edittext2" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="username" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear4" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/textview3" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password" />
+        <EditText android:textSize="14.0sp" android:textColor="#ff000000" android:textColorHint="#ff607d8b" android:id="@id/edittext3" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="password" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear5" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textStyle="italic" android:textColor="#fff44336" android:id="@id/textview4" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wrong Password" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/linear6" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="12.0sp" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@id/button2" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="PROCEED" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/imageview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hacke" android:scaleType="fitCenter" />
+    <LinearLayout android:orientation="vertical" android:id="@id/linear1" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

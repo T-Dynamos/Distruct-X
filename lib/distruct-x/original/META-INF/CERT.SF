@@ -1,0 +1,37 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: ujestGWZGp1mBkHdmfCSmskUuQ8=
+
+Name: AndroidManifest.xml
+SHA1-Digest: yncjluzmI+6u0SvHKKZikjaVIBs=
+
+Name: assets/fonts/okh.ttf
+SHA1-Digest: 3qTQJk9sZCazBDDI8SlJp6yK724=
+
+Name: assets/fonts/accent.ttf
+SHA1-Digest: jYVtdjbBFiwqdIcW5aSng5UD8hk=
+
+Name: res/drawable-xhdpi-v4/wall.png
+SHA1-Digest: PndzeGAqAYjTMzcyi1wMfo+J5WM=
+
+Name: res/drawable-xhdpi-v4/dis.png
+SHA1-Digest: phjraambwzMzi03/Q7R/Qcvy/Rc=
+
+Name: res/drawable-xhdpi-v4/default_image.png
+SHA1-Digest: zjUE0umODsbpZfB5XR5HU7E5V4k=
+
+Name: resources.arsc
+SHA1-Digest: B8UZa0p6vRCKoU8w4qs6/oQHLUM=
+
+Name: res/layout/main.xml
+SHA1-Digest: n6H8qBSraq4sJ5iWpHG0vPKt2/M=
+
+Name: res/drawable-xhdpi-v4/app_icon.png
+SHA1-Digest: vz3YvrsK8JuCYZXcK3t+8gzSeDQ=
+
+Name: classes.dex
+SHA1-Digest: k/23wasUs7RJoko+A7yqcvgq/Ko=
+
+Name: res/layout/start.xml
+SHA1-Digest: ejb30QzNIsVesBfoGJWcOOPPgic=
+

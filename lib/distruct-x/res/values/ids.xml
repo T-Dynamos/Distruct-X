@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="button1" />
+    <item type="id" name="edittext1" />
+    <item type="id" name="imageview1" />
+    <item type="id" name="linear1" />
+    <item type="id" name="linear3" />
+    <item type="id" name="linear5" />
+    <item type="id" name="linear6" />
+    <item type="id" name="textview1" />
+    <item type="id" name="textview3" />
+    <item type="id" name="webview1" />
+</resources>

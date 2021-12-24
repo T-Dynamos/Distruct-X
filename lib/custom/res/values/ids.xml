@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="imageview1" />
+    <item type="id" name="linear1" />
+    <item type="id" name="linear2" />
+    <item type="id" name="textview1" />
+    <item type="id" name="webview1" />
+</resources>

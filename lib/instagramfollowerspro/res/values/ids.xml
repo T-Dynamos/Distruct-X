@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="circleimageview1" />
+    <item type="id" name="linear1" />
+    <item type="id" name="linear2" />
+    <item type="id" name="linear6" />
+    <item type="id" name="textview2" />
+    <item type="id" name="textview5" />
+    <item type="id" name="webview1" />
+</resources>

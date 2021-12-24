@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear5" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/textview3" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enter the victim's INDIAN number" />
+        <EditText android:textSize="12.0sp" android:textColor="#ffffeb3b" android:textColorHint="#ff607d8b" android:layout_gravity="center" android:id="@id/edittext1" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Number" />
+        <Button android:textSize="12.0sp" android:textColor="#ff000000" android:layout_gravity="center" android:id="@id/button1" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bomb" />
+        <WebView android:id="@id/webview1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    </LinearLayout>
+</LinearLayout>

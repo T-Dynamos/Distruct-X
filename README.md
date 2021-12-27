@@ -69,5 +69,7 @@ Test
 
 ## ⚡ Contributions 
 
-* If this tool worked you can share screenshots here and if any error come you can also share in below telegram group
+* If this tool worked you can share screenshots in group and if any error come you can also share in below telegram group
+
+
 [Join](https://t.me/TDynamos)

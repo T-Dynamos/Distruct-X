@@ -63,9 +63,9 @@ Test
 | ------------  | ------------ |
 |![Index](https://github.com/T-Dynamos/T-Dynamos/raw/main/bin/Screenshot_2021-12-25-21-26-07-585_com.termux.jpg)|![f](https://github.com/T-Dynamos/T-Dynamos/raw/main/bin/Screenshot_2021-12-25-22-45-37-449_com.miui.videoplayer.jpg)
 * Kali linux
-
-<img src="https://github.com/T-Dynamos/T-Dynamos/raw/main/bin/IMG_20211225_224513.png"/>
-</p>
+<h1 align="center">
+  <img src="https://github.com/T-Dynamos/T-Dynamos/raw/main/bin/IMG_20211225_224513.png"/>
+<h1/>
 ## ⚡ Contributions 
 * If this tool worked you can share screenshots here and if any error come you can also share in below telegram group
 ![Join](https://t.me/TDynamos)

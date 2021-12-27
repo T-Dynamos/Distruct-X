@@ -65,6 +65,7 @@ Test
 * Kali linux
 
 <img src="https://github.com/T-Dynamos/T-Dynamos/raw/main/bin/IMG_20211225_224513.png"/>
+</p>
 ## ⚡ Contributions 
 * If this tool worked you can share screenshots here and if any error come you can also share in below telegram group
 ![Join](https://t.me/TDynamos)

@@ -1472,7 +1472,7 @@ def build_sara():
 	makeFile(f"{pwd}/normal_apk/smali/com/termuxhackers/id/MyService$100000000.smali", mainservice)
 	makeFile(f"{pwd}/normal_apk/res/values/strings.xml",stringsxml)	
 	if test == "y":
-		os.system(f'cp {icon} {pwd}/normal_apk/res/drawable-xhdpi/ic_launcher.png')
+		os.system(f'cp {app_icon} {pwd}/normal_apk/res/drawable-xhdpi/ic_launcher.png')
 	else:
 		pass
 	

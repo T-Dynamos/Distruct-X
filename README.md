@@ -5,8 +5,8 @@
 <p align="center">Distruct-X is a advance  <b>Virus Creater</b>for android Written in Python3 . Its Only available for Linux and Termux (android) 
 </p>
 <p align="center">
-<a href="https://bit.ly/2BNk3P1"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Infector-green.svg"></a>
-<a href="https://bit.ly/2BNk3P1"><img title="Version" src="https://img.shields.io/badge/Version-4.0-green.svg?style=flat-square"></a>
+<a href="https://bit.ly/2BNk3P1"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Distruct_X-green.svg"></a>
+<a href="https://bit.ly/2BNk3P1"><img title="Version" src="https://img.shields.io/badge/Version-Aplha-green.svg?style=flat-square"></a>
 <a href="https://bit.ly/2BNk3P1"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
 <p align="center">

@@ -6,21 +6,35 @@
 # instance fields
 .field private _timer:Ljava/util/Timer;
 
-.field private circleimageview1:Lde/hdodenhof/circleimageview/CircleImageView;
+.field private imageview1:Landroid/widget/ImageView;
 
 .field private linear1:Landroid/widget/LinearLayout;
 
-.field private linear2:Landroid/widget/LinearLayout;
+.field private linear10:Landroid/widget/LinearLayout;
+
+.field private linear12:Landroid/widget/LinearLayout;
+
+.field private linear3:Landroid/widget/LinearLayout;
+
+.field private linear4:Landroid/widget/LinearLayout;
+
+.field private linear5:Landroid/widget/LinearLayout;
 
 .field private linear6:Landroid/widget/LinearLayout;
 
+.field private linear7:Landroid/widget/LinearLayout;
+
+.field private linear8:Landroid/widget/LinearLayout;
+
+.field private linear9:Landroid/widget/LinearLayout;
+
 .field private ok:Ljava/util/TimerTask;
 
-.field private test:Landroid/content/Intent;
+.field private ok1:Landroid/content/Intent;
+
+.field private textview1:Landroid/widget/TextView;
 
 .field private textview2:Landroid/widget/TextView;
-
-.field private textview5:Landroid/widget/TextView;
 
 
 # direct methods
@@ -38,12 +52,12 @@
 
     iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->_timer:Ljava/util/Timer;
 
-    .line 49
+    .line 57
     new-instance v0, Landroid/content/Intent;
 
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
-    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->test:Landroid/content/Intent;
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->ok1:Landroid/content/Intent;
 
     .line 38
     return-void
@@ -53,8 +67,8 @@
     .locals 1
 
     .prologue
-    .line 49
-    iget-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->test:Landroid/content/Intent;
+    .line 57
+    iget-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->ok1:Landroid/content/Intent;
 
     return-object v0
 .end method
@@ -63,8 +77,8 @@
     .locals 1
 
     .prologue
-    .line 61
-    const v0, 0x7f040001
+    .line 68
+    const v0, 0x7f030001
 
     invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
 
@@ -74,8 +88,8 @@
 
     iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear1:Landroid/widget/LinearLayout;
 
-    .line 62
-    const v0, 0x7f040002
+    .line 69
+    const v0, 0x7f030004
 
     invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
 
@@ -83,32 +97,43 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear2:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear3:Landroid/widget/LinearLayout;
 
-    .line 63
-    const/high16 v0, 0x7f040000
-
-    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Lde/hdodenhof/circleimageview/CircleImageView;
-
-    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->circleimageview1:Lde/hdodenhof/circleimageview/CircleImageView;
-
-    .line 64
-    const v0, 0x7f040004
+    .line 70
+    const v0, 0x7f030005
 
     invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/TextView;
+    check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->textview2:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear4:Landroid/widget/LinearLayout;
 
-    .line 65
-    const v0, 0x7f040003
+    .line 71
+    const/high16 v0, 0x7f030000
+
+    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/ImageView;
+
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->imageview1:Landroid/widget/ImageView;
+
+    .line 72
+    const v0, 0x7f030006
+
+    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/LinearLayout;
+
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear5:Landroid/widget/LinearLayout;
+
+    .line 73
+    const v0, 0x7f030007
 
     invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
 
@@ -118,8 +143,52 @@
 
     iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear6:Landroid/widget/LinearLayout;
 
-    .line 66
-    const v0, 0x7f040005
+    .line 74
+    const v0, 0x7f030008
+
+    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/LinearLayout;
+
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear7:Landroid/widget/LinearLayout;
+
+    .line 75
+    const v0, 0x7f030009
+
+    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/LinearLayout;
+
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear8:Landroid/widget/LinearLayout;
+
+    .line 76
+    const v0, 0x7f03000a
+
+    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/LinearLayout;
+
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear9:Landroid/widget/LinearLayout;
+
+    .line 77
+    const v0, 0x7f030002
+
+    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/LinearLayout;
+
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear10:Landroid/widget/LinearLayout;
+
+    .line 78
+    const v0, 0x7f03000b
 
     invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
 
@@ -127,9 +196,31 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->textview5:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->textview1:Landroid/widget/TextView;
 
-    .line 67
+    .line 79
+    const v0, 0x7f030003
+
+    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/LinearLayout;
+
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear12:Landroid/widget/LinearLayout;
+
+    .line 80
+    const v0, 0x7f03000c
+
+    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->textview2:Landroid/widget/TextView;
+
+    .line 81
     return-void
 .end method
 
@@ -137,31 +228,31 @@
     .locals 4
 
     .prologue
-    .line 70
-    iget-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->linear2:Landroid/widget/LinearLayout;
+    .line 84
+    iget-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->textview1:Landroid/widget/TextView;
 
-    new-instance v1, Landroid/graphics/drawable/GradientDrawable;
+    invoke-virtual {p0}, Lcom/instagramfollowerspro/MainActivity;->getAssets()Landroid/content/res/AssetManager;
 
-    sget-object v2, Landroid/graphics/drawable/GradientDrawable$Orientation;->BR_TL:Landroid/graphics/drawable/GradientDrawable$Orientation;
+    move-result-object v1
 
-    const/4 v3, 0x2
+    const-string v2, "fonts/igfont.ttf"
 
-    new-array v3, v3, [I
+    invoke-static {v1, v2}, Landroid/graphics/Typeface;->createFromAsset(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/graphics/Typeface;
 
-    fill-array-data v3, :array_0
+    move-result-object v1
 
-    invoke-direct {v1, v2, v3}, Landroid/graphics/drawable/GradientDrawable;-><init>(Landroid/graphics/drawable/GradientDrawable$Orientation;[I)V
+    const/4 v2, 0x3
 
-    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1, v2}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V
 
-    .line 71
+    .line 85
     new-instance v0, Lcom/instagramfollowerspro/MainActivity$1;
 
     invoke-direct {v0, p0}, Lcom/instagramfollowerspro/MainActivity$1;-><init>(Lcom/instagramfollowerspro/MainActivity;)V
 
     iput-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->ok:Ljava/util/TimerTask;
 
-    .line 83
+    .line 97
     iget-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->_timer:Ljava/util/Timer;
 
     iget-object v1, p0, Lcom/instagramfollowerspro/MainActivity;->ok:Ljava/util/TimerTask;
@@ -170,34 +261,8 @@
 
     invoke-virtual {v0, v1, v2, v3}, Ljava/util/Timer;->schedule(Ljava/util/TimerTask;J)V
 
-    .line 84
-    iget-object v0, p0, Lcom/instagramfollowerspro/MainActivity;->textview2:Landroid/widget/TextView;
-
-    invoke-virtual {p0}, Lcom/instagramfollowerspro/MainActivity;->getAssets()Landroid/content/res/AssetManager;
-
-    move-result-object v1
-
-    const-string v2, "fonts/accent.ttf"
-
-    invoke-static {v1, v2}, Landroid/graphics/Typeface;->createFromAsset(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/graphics/Typeface;
-
-    move-result-object v1
-
-    const/4 v2, 0x0
-
-    invoke-virtual {v0, v1, v2}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V
-
-    .line 85
+    .line 98
     return-void
-
-    .line 70
-    nop
-
-    :array_0
-    .array-data 4
-        -0x16e19d
-        -0x58da
-    .end array-data
 .end method
 
 
@@ -220,17 +285,17 @@
     .end annotation
 
     .prologue
-    .line 115
+    .line 128
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 116
+    .line 129
     invoke-virtual {p1}, Landroid/widget/ListView;->getCheckedItemPositions()Landroid/util/SparseBooleanArray;
 
     move-result-object v2
 
-    .line 117
+    .line 130
     const/4 v0, 0x0
 
     :goto_0
@@ -240,10 +305,10 @@
 
     if-lt v0, v3, :cond_0
 
-    .line 121
+    .line 134
     return-object v1
 
-    .line 118
+    .line 131
     :cond_0
     invoke-virtual {v2, v0}, Landroid/util/SparseBooleanArray;->valueAt(I)Z
 
@@ -251,7 +316,7 @@
 
     if-eqz v3, :cond_1
 
-    .line 119
+    .line 132
     invoke-virtual {v2, v0}, Landroid/util/SparseBooleanArray;->keyAt(I)I
 
     move-result v3
@@ -264,7 +329,7 @@
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 117
+    .line 130
     :cond_1
     add-int/lit8 v0, v0, 0x1
 
@@ -277,7 +342,7 @@
     .end annotation
 
     .prologue
-    .line 126
+    .line 139
     const/4 v0, 0x1
 
     int-to-float v1, p1
@@ -303,7 +368,7 @@
     .end annotation
 
     .prologue
-    .line 136
+    .line 149
     invoke-virtual {p0}, Lcom/instagramfollowerspro/MainActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -323,7 +388,7 @@
     .end annotation
 
     .prologue
-    .line 131
+    .line 144
     invoke-virtual {p0}, Lcom/instagramfollowerspro/MainActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -343,15 +408,15 @@
     .end annotation
 
     .prologue
-    .line 95
+    .line 108
     const/4 v0, 0x2
 
     new-array v0, v0, [I
 
-    .line 96
+    .line 109
     invoke-virtual {p1, v0}, Landroid/view/View;->getLocationInWindow([I)V
 
-    .line 97
+    .line 110
     const/4 v1, 0x0
 
     aget v0, v0, v1
@@ -365,15 +430,15 @@
     .end annotation
 
     .prologue
-    .line 102
+    .line 115
     const/4 v0, 0x2
 
     new-array v0, v0, [I
 
-    .line 103
+    .line 116
     invoke-virtual {p1, v0}, Landroid/view/View;->getLocationInWindow([I)V
 
-    .line 104
+    .line 117
     const/4 v1, 0x1
 
     aget v0, v0, v1
@@ -387,12 +452,12 @@
     .end annotation
 
     .prologue
-    .line 109
+    .line 122
     new-instance v0, Ljava/util/Random;
 
     invoke-direct {v0}, Ljava/util/Random;-><init>()V
 
-    .line 110
+    .line 123
     sub-int v1, p2, p1
 
     add-int/lit8 v1, v1, 0x1
@@ -410,21 +475,21 @@
     .locals 1
 
     .prologue
-    .line 54
+    .line 61
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 55
-    const/high16 v0, 0x7f050000
+    .line 62
+    const/high16 v0, 0x7f040000
 
     invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/MainActivity;->setContentView(I)V
 
-    .line 56
+    .line 63
     invoke-direct {p0, p1}, Lcom/instagramfollowerspro/MainActivity;->initialize(Landroid/os/Bundle;)V
 
-    .line 57
+    .line 64
     invoke-direct {p0}, Lcom/instagramfollowerspro/MainActivity;->initializeLogic()V
 
-    .line 58
+    .line 65
     return-void
 .end method
 
@@ -434,7 +499,7 @@
     .end annotation
 
     .prologue
-    .line 90
+    .line 103
     invoke-virtual {p0}, Lcom/instagramfollowerspro/MainActivity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
@@ -447,6 +512,6 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 91
+    .line 104
     return-void
 .end method

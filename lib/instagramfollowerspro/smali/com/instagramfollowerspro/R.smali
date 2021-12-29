@@ -6,14 +6,12 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/instagramfollowerspro/R$attr;,
         Lcom/instagramfollowerspro/R$color;,
         Lcom/instagramfollowerspro/R$drawable;,
         Lcom/instagramfollowerspro/R$id;,
         Lcom/instagramfollowerspro/R$layout;,
         Lcom/instagramfollowerspro/R$string;,
-        Lcom/instagramfollowerspro/R$style;,
-        Lcom/instagramfollowerspro/R$styleable;
+        Lcom/instagramfollowerspro/R$style;
     }
 .end annotation
 

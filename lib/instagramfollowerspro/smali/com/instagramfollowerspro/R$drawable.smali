@@ -15,11 +15,11 @@
 
 
 # static fields
-.field public static final app_icon:I = 0x7f030000
+.field public static final app_icon:I = 0x7f020000
 
-.field public static final default_image:I = 0x7f030001
+.field public static final app_splash:I = 0x7f020001
 
-.field public static final ins:I = 0x7f030002
+.field public static final default_image:I = 0x7f020002
 
 
 # direct methods
@@ -27,7 +27,7 @@
     .locals 0
 
     .prologue
-    .line 45
+    .line 18
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

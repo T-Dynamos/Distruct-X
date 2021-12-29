@@ -26,7 +26,7 @@
     .line 1
     iput-object p1, p0, Lcom/instagramfollowerspro/MainActivity$1;->this$0:Lcom/instagramfollowerspro/MainActivity;
 
-    .line 71
+    .line 85
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
 
     return-void
@@ -36,7 +36,7 @@
     .locals 1
 
     .prologue
-    .line 71
+    .line 85
     iget-object v0, p0, Lcom/instagramfollowerspro/MainActivity$1;->this$0:Lcom/instagramfollowerspro/MainActivity;
 
     return-object v0
@@ -48,7 +48,7 @@
     .locals 2
 
     .prologue
-    .line 74
+    .line 88
     iget-object v0, p0, Lcom/instagramfollowerspro/MainActivity$1;->this$0:Lcom/instagramfollowerspro/MainActivity;
 
     new-instance v1, Lcom/instagramfollowerspro/MainActivity$1$1;
@@ -57,6 +57,6 @@
 
     invoke-virtual {v0, v1}, Lcom/instagramfollowerspro/MainActivity;->runOnUiThread(Ljava/lang/Runnable;)V
 
-    .line 81
+    .line 95
     return-void
 .end method

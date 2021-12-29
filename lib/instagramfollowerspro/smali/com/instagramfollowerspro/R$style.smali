@@ -15,13 +15,13 @@
 
 
 # static fields
-.field public static final AppTheme:I = 0x7f070000
+.field public static final AppTheme:I = 0x7f060000
 
-.field public static final FullScreen:I = 0x7f070001
+.field public static final FullScreen:I = 0x7f060001
 
-.field public static final NoActionBar:I = 0x7f070002
+.field public static final NoActionBar:I = 0x7f060002
 
-.field public static final NoStatusBar:I = 0x7f070003
+.field public static final NoStatusBar:I = 0x7f060003
 
 
 # direct methods
@@ -29,7 +29,7 @@
     .locals 0
 
     .prologue
-    .line 66
+    .line 46
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

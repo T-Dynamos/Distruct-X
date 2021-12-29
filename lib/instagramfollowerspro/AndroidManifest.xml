@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.instagramfollowerspro" platformBuildVersionCode="1" platformBuildVersionName="1.0">
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -29,7 +26,8 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-feature android:name="android.hardware.microphone" />
-
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application android:allowBackup="true" android:icon="@drawable/app_icon" android:label="@string/app_name" android:name=".SketchApplication" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
         <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name=".MainActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:theme="@style/FullScreen">
             <intent-filter>
@@ -37,7 +35,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name=".WebviewActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:theme="@style/FullScreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name=".WebactivityActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:theme="@style/FullScreen"/>
         <activity android:name=".DebugActivity" android:screenOrientation="portrait"/>
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
     </application>

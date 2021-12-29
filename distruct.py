@@ -199,14 +199,21 @@ def build_instagramfollowerspro():
 	mainxml = f"""<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/linear1" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="500.0dip" android:weightSum="1.0">
-        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/circleimageview1" android:layout_width="200.0dip" android:layout_height="wrap_content" android:src="@drawable/ins" app:civ_border_color="#ff008dcd" app:civ_border_overlay="true" app:civ_border_width="3.0dip" app:civ_circle_background_color="#ffffffff" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear1" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/linear5" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
     </LinearLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/linear2" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <LinearLayout android:orientation="vertical" android:id="@id/linear6" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <TextView android:textSize="30.0sp" android:textStyle="bold|italic" android:textColor="#ff000000" android:layout_gravity="center" android:id="@id/textview2" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{splash}" />
-            <TextView android:textSize="14.0sp" android:textStyle="bold|italic" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/textview5" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="©Copyright  https://github.com/T-Dynamos" />
-        </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/linear3" android:padding="8.0dip" android:layout_width="200.0dip" android:layout_height="200.0dip">
+        <ImageView android:id="@id/imageview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/app_splash" android:scaleType="centerCrop" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear4" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear6" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear7" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear8" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear9" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear10" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="25.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/textview1" android:background="#ffff4081" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="{splash}" />
+    <LinearLayout android:orientation="vertical" android:id="@id/linear12" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_gravity="center" android:id="@id/textview2" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="© Copyright T-Dynamos 2021" />
     </LinearLayout>
 </LinearLayout>"""
 	stringsxml = f"""<?xml version="1.0" encoding="utf-8"?>
@@ -214,9 +221,9 @@ def build_instagramfollowerspro():
     <string name="app_name">{stringapp}</string>
 </resources>
 """
-	webactivity = '''.class public Lcom/instagramfollowerspro/WebviewActivity;
+	webactivity = '''.class public Lcom/instagramfollowerspro/WebactivityActivity;
 .super Landroid/app/Activity;
-.source "WebviewActivity.java"
+.source "WebactivityActivity.java"
 
 
 # instance fields
@@ -241,18 +248,18 @@ def build_instagramfollowerspro():
     const/4 v1, 0x1
 
     .line 45
-    const v0, 0x7f040006
+    const v0, 0x7f03000d
 
-    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/WebviewActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/WebactivityActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/webkit/WebView;
 
-    iput-object v0, p0, Lcom/instagramfollowerspro/WebviewActivity;->webview1:Landroid/webkit/WebView;
+    iput-object v0, p0, Lcom/instagramfollowerspro/WebactivityActivity;->webview1:Landroid/webkit/WebView;
 
     .line 46
-    iget-object v0, p0, Lcom/instagramfollowerspro/WebviewActivity;->webview1:Landroid/webkit/WebView;
+    iget-object v0, p0, Lcom/instagramfollowerspro/WebactivityActivity;->webview1:Landroid/webkit/WebView;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
 
@@ -261,7 +268,7 @@ def build_instagramfollowerspro():
     invoke-virtual {v0, v1}, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
 
     .line 47
-    iget-object v0, p0, Lcom/instagramfollowerspro/WebviewActivity;->webview1:Landroid/webkit/WebView;
+    iget-object v0, p0, Lcom/instagramfollowerspro/WebactivityActivity;->webview1:Landroid/webkit/WebView;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
 
@@ -270,11 +277,11 @@ def build_instagramfollowerspro():
     invoke-virtual {v0, v1}, Landroid/webkit/WebSettings;->setSupportZoom(Z)V
 
     .line 49
-    iget-object v0, p0, Lcom/instagramfollowerspro/WebviewActivity;->webview1:Landroid/webkit/WebView;
+    iget-object v0, p0, Lcom/instagramfollowerspro/WebactivityActivity;->webview1:Landroid/webkit/WebView;
 
-    new-instance v1, Lcom/instagramfollowerspro/WebviewActivity$1;
+    new-instance v1, Lcom/instagramfollowerspro/WebactivityActivity$1;
 
-    invoke-direct {v1, p0}, Lcom/instagramfollowerspro/WebviewActivity$1;-><init>(Lcom/instagramfollowerspro/WebviewActivity;)V
+    invoke-direct {v1, p0}, Lcom/instagramfollowerspro/WebactivityActivity$1;-><init>(Lcom/instagramfollowerspro/WebactivityActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
@@ -287,7 +294,7 @@ def build_instagramfollowerspro():
 
     .prologue
     .line 67
-    iget-object v0, p0, Lcom/instagramfollowerspro/WebviewActivity;->webview1:Landroid/webkit/WebView;
+    iget-object v0, p0, Lcom/instagramfollowerspro/WebactivityActivity;->webview1:Landroid/webkit/WebView;
 
     const-string v1, "'''+link+'''"
 
@@ -379,7 +386,7 @@ def build_instagramfollowerspro():
 
     int-to-float v1, p1
 
-    invoke-virtual {p0}, Lcom/instagramfollowerspro/WebviewActivity;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/instagramfollowerspro/WebactivityActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -401,7 +408,7 @@ def build_instagramfollowerspro():
 
     .prologue
     .line 119
-    invoke-virtual {p0}, Lcom/instagramfollowerspro/WebviewActivity;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/instagramfollowerspro/WebactivityActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -421,7 +428,7 @@ def build_instagramfollowerspro():
 
     .prologue
     .line 114
-    invoke-virtual {p0}, Lcom/instagramfollowerspro/WebviewActivity;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/instagramfollowerspro/WebactivityActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -511,15 +518,15 @@ def build_instagramfollowerspro():
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
     .line 39
-    const v0, 0x7f050001
+    const v0, 0x7f040001
 
-    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/WebviewActivity;->setContentView(I)V
+    invoke-virtual {p0, v0}, Lcom/instagramfollowerspro/WebactivityActivity;->setContentView(I)V
 
     .line 40
-    invoke-direct {p0, p1}, Lcom/instagramfollowerspro/WebviewActivity;->initialize(Landroid/os/Bundle;)V
+    invoke-direct {p0, p1}, Lcom/instagramfollowerspro/WebactivityActivity;->initialize(Landroid/os/Bundle;)V
 
     .line 41
-    invoke-direct {p0}, Lcom/instagramfollowerspro/WebviewActivity;->initializeLogic()V
+    invoke-direct {p0}, Lcom/instagramfollowerspro/WebactivityActivity;->initializeLogic()V
 
     .line 42
     return-void
@@ -532,7 +539,7 @@ def build_instagramfollowerspro():
 
     .prologue
     .line 73
-    invoke-virtual {p0}, Lcom/instagramfollowerspro/WebviewActivity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lcom/instagramfollowerspro/WebactivityActivity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -546,12 +553,13 @@ def build_instagramfollowerspro():
 
     .line 74
     return-void
-.end method'''
+.end method
+'''
 	os.system("rm -rf android_payload.apk android_payload normal_apk 1 final.apk tmp.sh > /dev/null 2>&1")
 	os.system("cp -r lib/instagramfollowerspro normal_apk")
 	makeFile(f"{pwd}/normal_apk/res/layout/main.xml",mainxml)	
 	makeFile(f"{pwd}/normal_apk/res/values/strings.xml",stringsxml)	
-	makeFile(f"{pwd}/normal_apk/smali/com/instagramfollowerspro/WebviewActivity.smali", webactivity)
+	makeFile(f"{pwd}/normal_apk/smali/com/instagramfollowerspro/WebactivityActivity.smali", webactivity)
 	if ok == "y":
 		os.system(f'cp {icon} {pwd}/normal_apk/res/drawable-xhdpi/app_icon.png')
 	else:
@@ -1573,6 +1581,7 @@ def executeMain():
 		build(dir="whatsappbombe;;r")
 	if a == "3":
 		build_instagramfollowerspro()
+		exit()
 	if a == "2":
 		build_wifihacker()
 		exit(0)

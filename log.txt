@@ -1,11 +1,24 @@
 I: Using Apktool 2.6.1-SNAPSHOT on android_payload.apk
-I: Loading resource table...
-I: Decoding AndroidManifest.xml with resources...
-I: Loading resource table from file: /data/data/com.termux/files/home/.local/share/apktool/framework/1.apk
-I: Regular manifest package...
-I: Decoding file-resources...
-I: Decoding values */* XMLs...
-I: Baksmaling classes.dex...
-I: Copying assets and libs...
-I: Copying unknown files...
-I: Copying original files...
+Exception in thread "main" brut.androlib.AndrolibException: brut.directory.DirectoryException: java.util.zip.ZipException: zip file is empty
+	at brut.androlib.ApkDecoder.hasResources(ApkDecoder.java:290)
+	at brut.androlib.ApkDecoder.decode(ApkDecoder.java:96)
+	at brut.apktool.Main.cmdDecode(Main.java:175)
+	at brut.apktool.Main.main(Main.java:79)
+Caused by: brut.directory.DirectoryException: java.util.zip.ZipException: zip file is empty
+	at brut.directory.ZipRODirectory.<init>(ZipRODirectory.java:55)
+	at brut.directory.ZipRODirectory.<init>(ZipRODirectory.java:38)
+	at brut.directory.ExtFile.getDirectory(ExtFile.java:49)
+	at brut.androlib.ApkDecoder.hasResources(ApkDecoder.java:288)
+	... 3 more
+Caused by: java.util.zip.ZipException: zip file is empty
+	at java.base/java.util.zip.ZipFile$Source.zerror(ZipFile.java:1577)
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1363)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1458)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1297)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1259)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:708)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:242)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:186)
+	at brut.directory.ZipRODirectory.<init>(ZipRODirectory.java:53)
+	... 6 more

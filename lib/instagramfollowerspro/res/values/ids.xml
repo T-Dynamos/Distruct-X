@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="id" name="circleimageview1" />
+    <item type="id" name="imageview1" />
     <item type="id" name="linear1" />
-    <item type="id" name="linear2" />
+    <item type="id" name="linear10" />
+    <item type="id" name="linear12" />
+    <item type="id" name="linear3" />
+    <item type="id" name="linear4" />
+    <item type="id" name="linear5" />
     <item type="id" name="linear6" />
+    <item type="id" name="linear7" />
+    <item type="id" name="linear8" />
+    <item type="id" name="linear9" />
+    <item type="id" name="textview1" />
     <item type="id" name="textview2" />
-    <item type="id" name="textview5" />
     <item type="id" name="webview1" />
 </resources>

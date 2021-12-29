@@ -15,19 +15,33 @@
 
 
 # static fields
-.field public static final circleimageview1:I = 0x7f040000
+.field public static final imageview1:I = 0x7f030000
 
-.field public static final linear1:I = 0x7f040001
+.field public static final linear1:I = 0x7f030001
 
-.field public static final linear2:I = 0x7f040002
+.field public static final linear10:I = 0x7f030002
 
-.field public static final linear6:I = 0x7f040003
+.field public static final linear12:I = 0x7f030003
 
-.field public static final textview2:I = 0x7f040004
+.field public static final linear3:I = 0x7f030004
 
-.field public static final textview5:I = 0x7f040005
+.field public static final linear4:I = 0x7f030005
 
-.field public static final webview1:I = 0x7f040006
+.field public static final linear5:I = 0x7f030006
+
+.field public static final linear6:I = 0x7f030007
+
+.field public static final linear7:I = 0x7f030008
+
+.field public static final linear8:I = 0x7f030009
+
+.field public static final linear9:I = 0x7f03000a
+
+.field public static final textview1:I = 0x7f03000b
+
+.field public static final textview2:I = 0x7f03000c
+
+.field public static final webview1:I = 0x7f03000d
 
 
 # direct methods
@@ -35,7 +49,7 @@
     .locals 0
 
     .prologue
-    .line 50
+    .line 23
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

@@ -15,7 +15,7 @@
 
 
 # static fields
-.field public static final app_name:I = 0x7f060000
+.field public static final app_name:I = 0x7f050000
 
 
 # direct methods
@@ -23,7 +23,7 @@
     .locals 0
 
     .prologue
-    .line 63
+    .line 43
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

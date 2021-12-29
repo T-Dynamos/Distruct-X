@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/T-Dynamos/Distruct-X/main/distruct-x.png" width="400px"/><br/>
   Distruct-X 
 </h1>
-<p align="center">Distruct-X is a advance  <b>Virus Creater</b>for android Written in Python3 . Its Only available for Linux and Termux (android) 
+<p align="center">Distruct-X is a advance  <b>Virus Creater</b> for android Written in Python3 . Its Only available for Linux and Termux (android) 
 </p>
 <p align="center">
 <a href="https://bit.ly/2BNk3P1"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Distruct_X-green.svg"></a>
@@ -44,7 +44,7 @@ pyhon3 distruct.py
 * There are 5 Templates Available
 ```
 ╔════════════════════════════════════════════════════════════╗
-║ Name                         Description            Power             ║
+║ Name                         Description            Power          ║
 ╚════════════════════════════════════════════════════════════╝
 
 [1] Distruct X            Advance Sms+Call Bomber      Medium

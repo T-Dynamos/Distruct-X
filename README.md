@@ -73,3 +73,9 @@ Test
 
 
 [Join](https://t.me/TDynamos)
+
+## Dontaions
+
+If You really like my work you should consider donating to me to made me buy [Raspberry Pi 400](https://www.electronicscomp.com/raspberry-pi-400-personal-keyboard-computer-kit)
+
+* UPI ID : anshdadwal@apl
